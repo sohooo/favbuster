@@ -14,6 +14,7 @@
 #           access_secret: <access secret from initial_auth.rb>
 
 require "rubygems"
+require "bundler/setup"
 require "twitter"
 
 # ----------------------------------------------------------------------
