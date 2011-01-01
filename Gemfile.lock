@@ -17,4 +17,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< Updated upstream
   twitter (~> 0.9)
+=======
+  twitter (>= 1.0)
+>>>>>>> Stashed changes
