@@ -1,3 +1,3 @@
 source :rubygems
 
-gem "twitter"
+gem "twitter", "~>0.9"
