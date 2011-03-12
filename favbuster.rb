@@ -34,5 +34,5 @@ client = Twitter::Client.new
 puts "deleting the following tweets:"
 client.favorites.each do |fav|
   puts "#{fav.user.screen_name.rjust(20)}: #{fav.text}"
-  twitter.favorite_destroy(fav.id)
+  Twitter.favorite_destroy(fav.id)
 end
