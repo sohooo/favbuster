@@ -9,6 +9,7 @@ GEM
     faraday_middleware (0.3.2)
       faraday (~> 0.5.4)
     hashie (1.0.0)
+    highline (1.6.1)
     multi_json (0.0.5)
     multi_xml (0.2.1)
     multipart-post (1.1.0)
@@ -26,4 +27,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  highline
   twitter (>= 1.0)
